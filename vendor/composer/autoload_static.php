@@ -649,20 +649,10 @@ class ComposerStaticInit8e121cfec4f9e137f13f96f56fef7523
     );
 
     public static $classMap = array (
-        'App\\Actions\\Fortify\\CreateNewUser' => __DIR__ . '/../..' . '/app/Actions/Fortify/CreateNewUser.php',
         'App\\Actions\\Fortify\\ResetUserPassword' => __DIR__ . '/../..' . '/app/Actions/Fortify/ResetUserPassword.php',
-        'App\\Concerns\\PasswordValidationRules' => __DIR__ . '/../..' . '/app/Concerns/PasswordValidationRules.php',
-        'App\\Concerns\\ProfileValidationRules' => __DIR__ . '/../..' . '/app/Concerns/ProfileValidationRules.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\Settings\\PasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Settings/PasswordController.php',
-        'App\\Http\\Controllers\\Settings\\ProfileController' => __DIR__ . '/../..' . '/app/Http/Controllers/Settings/ProfileController.php',
         'App\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Settings/TwoFactorAuthenticationController.php',
-        'App\\Http\\Middleware\\HandleAppearance' => __DIR__ . '/../..' . '/app/Http/Middleware/HandleAppearance.php',
-        'App\\Http\\Middleware\\HandleInertiaRequests' => __DIR__ . '/../..' . '/app/Http/Middleware/HandleInertiaRequests.php',
-        'App\\Http\\Requests\\Settings\\PasswordUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Settings/PasswordUpdateRequest.php',
-        'App\\Http\\Requests\\Settings\\ProfileDeleteRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Settings/ProfileDeleteRequest.php',
-        'App\\Http\\Requests\\Settings\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Settings/ProfileUpdateRequest.php',
-        'App\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Settings/TwoFactorAuthenticationRequest.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\FortifyServiceProvider' => __DIR__ . '/../..' . '/app/Providers/FortifyServiceProvider.php',

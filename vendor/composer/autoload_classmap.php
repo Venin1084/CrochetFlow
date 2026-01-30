@@ -6,20 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Actions\\Fortify\\CreateNewUser' => $baseDir . '/app/Actions/Fortify/CreateNewUser.php',
     'App\\Actions\\Fortify\\ResetUserPassword' => $baseDir . '/app/Actions/Fortify/ResetUserPassword.php',
-    'App\\Concerns\\PasswordValidationRules' => $baseDir . '/app/Concerns/PasswordValidationRules.php',
-    'App\\Concerns\\ProfileValidationRules' => $baseDir . '/app/Concerns/ProfileValidationRules.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\Settings\\PasswordController' => $baseDir . '/app/Http/Controllers/Settings/PasswordController.php',
-    'App\\Http\\Controllers\\Settings\\ProfileController' => $baseDir . '/app/Http/Controllers/Settings/ProfileController.php',
     'App\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController' => $baseDir . '/app/Http/Controllers/Settings/TwoFactorAuthenticationController.php',
-    'App\\Http\\Middleware\\HandleAppearance' => $baseDir . '/app/Http/Middleware/HandleAppearance.php',
-    'App\\Http\\Middleware\\HandleInertiaRequests' => $baseDir . '/app/Http/Middleware/HandleInertiaRequests.php',
-    'App\\Http\\Requests\\Settings\\PasswordUpdateRequest' => $baseDir . '/app/Http/Requests/Settings/PasswordUpdateRequest.php',
-    'App\\Http\\Requests\\Settings\\ProfileDeleteRequest' => $baseDir . '/app/Http/Requests/Settings/ProfileDeleteRequest.php',
-    'App\\Http\\Requests\\Settings\\ProfileUpdateRequest' => $baseDir . '/app/Http/Requests/Settings/ProfileUpdateRequest.php',
-    'App\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest' => $baseDir . '/app/Http/Requests/Settings/TwoFactorAuthenticationRequest.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\FortifyServiceProvider' => $baseDir . '/app/Providers/FortifyServiceProvider.php',

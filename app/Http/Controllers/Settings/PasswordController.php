@@ -18,15 +18,5 @@ class PasswordController extends Controller
         return Inertia::render('settings/Password');
     }
 
-    /**
-     * Update the user's password.
-     */
-    public function update(PasswordUpdateRequest $request): RedirectResponse
-    {
-        $request->user()->update([
-            'password' => $request->password,
-        ]);
 
-        return back();
-    }
 }
